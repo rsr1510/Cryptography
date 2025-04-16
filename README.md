@@ -115,12 +115,5 @@ Enter the shift value (0-25): 3
 Encrypted text: Khoor Zruog
 ```
 
-## Notes
 
-- The implementation focuses on classical cryptographic methods and is intended for educational purposes.
-- Modern cryptographic needs should be addressed with industry-standard libraries.
-- Some ciphers have specific requirements:
-  - Affine cipher requires coefficient 'a' to be coprime with 26.
-  - Hill cipher requires a matrix that has an inverse mod 26.
-  - N-gram decryption is not fully implemented due to its nature.
 
