@@ -88,20 +88,20 @@ Follow the menu prompts:
 
 ```
 ==== Cryptographic Ciphers ====
-1. Caesar Cipher
-2. Atbash Cipher
-3. Augustus Cipher
-4. Affine Cipher
-5. Vigenere Cipher
-6. Gronsfeld Cipher
-7. Beaufort Cipher
-8. Autokey/Running Key Cipher
-9. N-gram Operations
+ 1. Caesar Cipher
+ 2. Atbash Cipher
+ 3. August Cipher (Caesar variant)
+ 4. Affine Cipher
+ 5. Vigenere Cipher
+ 6. Gronsfeld Cipher
+ 7. Beaufort Cipher
+ 8. Autoclave Cipher/Running key Cipher
+ 9. N-gram Operations
 10. Hill Cipher
 11. Rail Fence Cipher
 12. Route Cipher
-13. Myszkowski Cipher
-0. Exit
+13. Myszkowski Cipher (Encode only)
+ 0. Exit
 Enter your choice: 1
 
 Choose operation:
