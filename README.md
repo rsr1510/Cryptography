@@ -1,4 +1,4 @@
-# Cryptographic Ciphers Implementation (All 13 algorithms implemented in a single code, chosen with menus)
+# Cryptographic Ciphers Implementation (All 13 algorithms implemented in a single code - rsalgo.cpp)
 
 This C++ program implements 13 different classical cryptographic ciphers with both encryption and decryption functionality. The program provides a user-friendly menu interface for selecting and using each cipher.
 
@@ -18,9 +18,8 @@ This C++ program implements 13 different classical cryptographic ciphers with bo
    * A substitution cipher that maps each letter to its reverse in the alphabet (A→Z, B→Y, etc.).
    * No additional parameters required.
 
-3. **Augustus Cipher**
-   * A combination of a keyword substitution and Caesar shift.
-   * Parameters: Keyword, shift value (0-25)
+3. **August Cipher**
+   * Ceaser cipher with shift = 1.
 
 4. **Affine Cipher**
    * Uses a mathematical function (ax + b) mod 26 for encryption.
@@ -57,7 +56,7 @@ This C++ program implements 13 different classical cryptographic ciphers with bo
 
 12. **Route Cipher**
     * A transposition cipher that reads text along specific routes in a grid.
-    * Parameters: Number of rows, number of columns, route type (spiral, zigzag, or columns)
+    * Parameters: Number of rows, number of columns, route type (spiral, zigzag, or columns; in this program, it is set to columns by default)
 
 13. **Myszkowski Cipher**
     * A columnar transposition cipher using a keyword with potentially repeated letters.
